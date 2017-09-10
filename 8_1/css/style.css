@@ -1,0 +1,39 @@
+.wrapper {
+  margin: 0 auto;
+  width: 915px;
+}
+
+header {
+  background-color: #ff9800;
+  height: 121px;
+}
+
+h1 {
+  display: block;
+  border: 30px solid transparent;
+}
+
+img {
+  width: 150px;
+  height: 200px;
+}
+
+main div {
+  width: 305px;
+  padding-bottom: 50px;
+  float: left;
+}
+
+@media screen and (max-width: 960px) {
+  main div {
+    float: none;
+  }
+  .wrapper {
+    margin: 0 auto;
+    width: calc(100%-100px);
+    width: auto;
+  }
+  img {
+    display: block;
+  }
+}
